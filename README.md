@@ -27,3 +27,6 @@ require 'spiralize'
 matrix = Matrix[["A","B"], ["C","D"]]
 matrix.spiralize
 ```
+```
+=> "a b d c"
+```
