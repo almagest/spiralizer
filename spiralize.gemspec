@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Alan Spadoni"]
   s.email       = 'algamest@gmail.com'
   s.files       = ["lib/spiralize.rb"]
-  s.homepage    = 'http://www.github.com'
+  s.homepage    = 'https://github.com/almagest/spiralizer'
   s.license       = 'MIT'
 end
