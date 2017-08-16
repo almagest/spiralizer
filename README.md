@@ -30,3 +30,9 @@ matrix.spiralize
 ```
 => "a b d c"
 ```
+
+## Tests
+This gem uses minitest for testing. To run:
+```
+ruby -Ilib:test spiralize.spec
+```
