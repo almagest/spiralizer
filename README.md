@@ -1,4 +1,4 @@
-Ruby Test - "The Spiralizer"
+# Ruby Test - "The Spiralizer"
 
 Write a Ruby gem that takes a matrix (or two dimensional array) and returns a string.
 The matrix may be of arbitrary size and must consist of uppercase English letters.
@@ -15,4 +15,15 @@ I J K L
 The resulting string would be:
 "a b c d h l k j i e f g"
 
-Appropriate error message(s) should be displayed if invalid input is provided.
+## Usage
+
+Build & install the gem:
+```
+gem build spiralize.gemspec; gem install spiralize-0.0.1.gem
+```
+Run via IRB or in a code file:
+```ruby
+require 'spiralize'
+matrix = Matrix[["A","B"], ["C","D"]]
+matrix.spiralize
+```
