@@ -1,6 +1,6 @@
 # Ruby Test - "The Spiralizer"
 
-Write a Ruby gem that takes a matrix (or two dimensional array) and returns a string.
+Write a Ruby program that takes a matrix (or two dimensional array) and returns a string.
 The matrix may be of arbitrary size and must consist of uppercase English letters.
 The returned string must consist of all elements of the matrix ordered in a clockwise
 spiral pattern starting with element [0, 0]. Each letter must be converted to lowercase
@@ -14,6 +14,7 @@ I J K L
 ```
 The resulting string would be:
 "a b c d h l k j i e f g"
+
 
 ## Usage
 
